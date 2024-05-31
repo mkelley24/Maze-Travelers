@@ -11,7 +11,7 @@ This code will run on linux and MacOS but not on windows, there will be a video 
 1. First you must have GLUT installed which can be installed by running these two commands:
    * `sudo apt-get install freeglut3-dev`
    * `sudo apt-get install mesa-common-dev`
-2.  Next you compile the code by running the `build.sh` script, which will create a executable called `Maze`
+2.  Next you compile the code by running the `linux_build.sh` script, which will create a executable called `Maze`
 3.  Finally you run the code by typing the command `./Maze <mazeWidth> <mazeHeight> <travelerCount> <travelerGrowthRate>?` (the traveler growth rate is how many moves the traveler will move before growing one additional segment to their tail, it is an optional argument, if left off the traveler will never grow an additional segment)
 
 ### MacOS instructions
